@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = "1.3.5"
   spec.summary      = "TaurusX Ads is Mobile Ad SDK."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
-  spec.license      = { :type => 'MIT', :file => "#{spec.version}/LICENSE" }
+  spec.license      = { :type => 'MIT', :file => "TaurusXAds_#{spec.version}/LICENSE" }
   spec.author       = "TaurusXAds"
   spec.platform     = :ios, "8.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/TaurusXAds/TaurusXAds_#{spec.version}.zip" }
