@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_Amazon {
+  umbrella header "TaurusXAdMediation_Amazon.h"
+
+  export *
+  module * { export * }
+}

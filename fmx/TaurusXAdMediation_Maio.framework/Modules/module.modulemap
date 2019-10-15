@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_Maio {
+  umbrella header "TaurusXAdMediation_Maio.h"
+
+  export *
+  module * { export * }
+}

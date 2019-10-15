@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_Vungle {
+  umbrella header "TaurusXAdMediation_Vungle.h"
+
+  export *
+  module * { export * }
+}

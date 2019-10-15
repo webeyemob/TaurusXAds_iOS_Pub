@@ -1,0 +1,6 @@
+framework module TXADMediation_TikTok {
+  umbrella header "TXADMediation_TikTok.h"
+
+  export *
+  module * { export * }
+}
