@@ -1,6 +1,0 @@
-framework module TXADMediation_GDT {
-  umbrella header "TXADMediation_GDT.h"
-
-  export *
-  module * { export * }
-}
