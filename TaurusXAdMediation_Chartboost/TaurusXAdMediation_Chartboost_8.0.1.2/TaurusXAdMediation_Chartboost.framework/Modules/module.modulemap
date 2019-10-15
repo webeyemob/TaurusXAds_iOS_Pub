@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_Chartboost {
+  umbrella header "TaurusXAdMediation_Chartboost.h"
+
+  export *
+  module * { export * }
+}

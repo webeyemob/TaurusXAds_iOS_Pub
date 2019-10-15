@@ -1,6 +1,0 @@
-framework module TaurusXAdMediation_UnityAds {
-  umbrella header "TaurusXAdMediation_UnityAds.h"
-
-  export *
-  module * { export * }
-}
