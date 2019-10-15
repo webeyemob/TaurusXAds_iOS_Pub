@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_Nend {
+  umbrella header "TaurusXAdMediation_Nend.h"
+
+  export *
+  module * { export * }
+}
