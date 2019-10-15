@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "TaurusXAdMediation_Amazon"
   spec.version      = "2.2.17.2"
-  spec.summary      = "TikTok Adapters for mediating through TaurusX Ads."
+  spec.summary      = "Amazon Adapters for mediating through TaurusX Ads."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TaurusXAdMediation_Amazon_#{spec.version}/LICENSE" }
   spec.author       = "TaurusXAds"

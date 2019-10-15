@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "TaurusXAdMediation_Flurry"
   spec.version      = "10.0.2.0"
-  spec.summary      = "TikTok Adapters for mediating through TaurusX Ads."
+  spec.summary      = "Flurry Adapters for mediating through TaurusX Ads."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TaurusXAdMediation_Flurry_#{spec.version}/LICENSE" }
   spec.author       = "TaurusXAds"
