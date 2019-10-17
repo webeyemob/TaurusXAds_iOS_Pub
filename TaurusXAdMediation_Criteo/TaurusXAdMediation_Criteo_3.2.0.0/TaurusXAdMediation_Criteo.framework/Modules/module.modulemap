@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_Criteo {
+  umbrella header "TaurusXAdMediation_Criteo.h"
+
+  export *
+  module * { export * }
+}
