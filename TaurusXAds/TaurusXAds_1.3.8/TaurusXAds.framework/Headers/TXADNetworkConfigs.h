@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "TXADNetworkConfig.h"
 
-/*！
- 
+/*!
+ NetworkConfigs enable set special config of Network.
  */
 @interface TXADNetworkConfigs : NSObject
 
