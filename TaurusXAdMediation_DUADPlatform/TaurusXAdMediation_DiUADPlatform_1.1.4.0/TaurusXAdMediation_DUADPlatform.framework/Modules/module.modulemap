@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_DUADPlatform {
+  umbrella header "TaurusXAdMediation_DUADPlatform.h"
+
+  export *
+  module * { export * }
+}
