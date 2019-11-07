@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_IronSource {
+  umbrella header "TaurusXAdMediation_IronSource.h"
+
+  export *
+  module * { export * }
+}
