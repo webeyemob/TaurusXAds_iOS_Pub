@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_MoPub {
+  umbrella header "TaurusXAdMediation_MoPub.h"
+
+  export *
+  module * { export * }
+}
