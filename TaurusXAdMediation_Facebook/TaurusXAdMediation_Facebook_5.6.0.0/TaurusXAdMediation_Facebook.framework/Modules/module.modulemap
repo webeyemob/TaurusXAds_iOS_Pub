@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_Facebook {
+  umbrella header "TaurusXAdMediation_Facebook.h"
+
+  export *
+  module * { export * }
+}
