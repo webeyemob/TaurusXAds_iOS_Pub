@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = "20191016.0"
   spec.summary      = "Five Adapters for mediating through TaurusX Ads."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
-  spec.license      = { :type => 'MIT', :file => "TaurusXAdMediation_DUAdPlatform_#{spec.version}/LICENSE" }
+  spec.license      = { :type => 'MIT', :file => "TaurusXAdMediation_Five_#{spec.version}/LICENSE" }
   spec.author       = "TaurusXAds"
   spec.platform     = :ios, "8.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/TaurusXAdMediation_Five/TaurusXAdMediation_Five_#{spec.version}.zip" }
