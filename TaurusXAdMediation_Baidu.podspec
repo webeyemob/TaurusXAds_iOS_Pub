@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.resource = "TaurusXAdMediation_Baidu_#{spec.version}/baidumobadsdk.bundle"
   spec.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
   spec.frameworks       = 'StoreKit', 'SafariServices', 'MessageUI', 'CoreMedia', 'CoreMotion', 'SystemConfiguration', 'CoreLocation', 'CoreTelephony', 'AVFoundation', 'AdSupport'
-  spec.libraries        = 'libc++'
+  spec.libraries        = 'c++'
   spec.dependency "TaurusXAds"
 end
