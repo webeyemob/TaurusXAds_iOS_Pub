@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_AdColony {
+  umbrella header "TaurusXAdMediation_AdColony.h"
+
+  export *
+  module * { export * }
+}
