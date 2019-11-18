@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TaurusXAdMediation_Chartboost"
-  spec.version      = "8.0.3.0"
+  spec.version      = "8.0.3.1"
   spec.summary      = "Chartboost Adapters for mediating through TaurusX Ads."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TaurusXAdMediation_Chartboost_#{spec.version}/LICENSE" }
