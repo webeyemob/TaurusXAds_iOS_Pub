@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_Mobvista {
+  umbrella header "TaurusXAdMediation_Mobvista.h"
+
+  export *
+  module * { export * }
+}
