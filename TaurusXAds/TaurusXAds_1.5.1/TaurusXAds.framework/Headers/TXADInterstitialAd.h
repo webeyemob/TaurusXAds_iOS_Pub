@@ -4,6 +4,7 @@
 #import "TXADInterstitialAdDelegate.h"
 #import "TXADInnerInterstitialAdDelegate.h"
 #import "TXADNetworkConfigs.h"
+#import "TXADCLConfig.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -66,6 +67,13 @@ NS_ASSUME_NONNULL_BEGIN
 @param cacheCount NSInteger cached ad count
 */
 - (void)setCL:(int)cacheCount;
+
+/*!
+ @method setCLConfig
+ @abstract set cycle load model
+ @param config TXADCLConfig
+ */
+- (void)setCLConfig:(TXADCLConfig *)config;
 
 /*!
 @method loadAd

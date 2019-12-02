@@ -5,6 +5,8 @@
 
 #import <Foundation/Foundation.h>
 #import "TXADILineItem.h"
+#import "TXADAdContentInfo.h"
+
 
 /*!
 Info of LineItem when tracking loading ad process.
@@ -42,6 +44,10 @@ Info of LineItem when tracking loading ad process.
  */
 @property float eCPM;
 
-- (TXADTrackerInfo *)initWithLineItem:(TXADILineItem *)lineItem;
+@property (nonatomic, strong) TXADAdContentInfo *adContentInfo;
+
+- (TXADTrackerInfo *)initWithLineItem:(TXADILineItem *)iLineItem;
+
+- (TXADTrackerInfo *)initWithLineItem:(TXADILineItem *)iLineItem adContentInfo: (TXADAdContentInfo *)contentInfo;
 
 @end

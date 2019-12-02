@@ -72,10 +72,15 @@ typedef void (*TXADMixFullScreenAdWillPresentScreenCallback)(TXADTypeMixFullScre
 typedef void (*TXADMixFullScreenAdDidDismissScreenCallback)(TXADTypeMixFullScreenClientRef *mixFullScreenClient);
 typedef void (*TXADMixFullScreenAdWillLeaveApplicationCallback)(TXADTypeMixFullScreenClientRef *mixFullScreenClient);
 
+
 /// NativeAdLayout
 // 对 Unity 中 NativeAdLayout 的引用。
-typedef const void *TXADTypeNativeAdLayoutClientRef;
 typedef const void *TXADTypeNativeAdLayoutRef;
+
+
+/// CLConfig
+// 对 Unity 中 CLConfig 的引用。
+typedef const void *TXADTypeCLConfigRef;
 
 
 /// TXADTracker

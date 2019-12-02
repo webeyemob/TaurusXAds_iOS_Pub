@@ -14,11 +14,15 @@ FOUNDATION_EXPORT const unsigned char TXADSdkVersionString[];
 
 #import <TaurusXAds/TXADAdError.h>
 #import <TaurusXAds/TXADAdType.h>
+
 #import <TaurusXAds/TXADAdUnitInfo.h>
+#import <TaurusXAds/TXADAdContentInfo.h>
 
 #import <TaurusXAds/TXADBannerAdSize.h>
 #import <TaurusXAds/TXADBannerView.h>
 #import <TaurusXAds/TXADBannerViewDelegate.h>
+
+#import <TaurusXAds/TXADCLConfig.h>
 
 #import <TaurusXAds/TXADFeed.h>
 #import <TaurusXAds/TXADFeedList.h>

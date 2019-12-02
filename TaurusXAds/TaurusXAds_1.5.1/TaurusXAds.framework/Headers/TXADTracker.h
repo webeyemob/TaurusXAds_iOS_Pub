@@ -1,39 +1,40 @@
 //
 //  TXADTracker.h
-//  Created by TaurusXAds on 2019/7/14.
+//  TaurusXAds
+//
+//  Created by TaurusXAds on 2019/12/1.
+//  Copyright © 2019年 TaurusXAds. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "TXADTrackerDelegate.h"
-#import "TXADILineItem.h"
-#import "TXADAdUnitInfo.h"
 #import "TXADTypes.h"
-#import "TXADAdError.h"
 
 /*!
-Track loading ad process of every LineItem.
-*/
+ Track loading ad process of every LineItem.
+ */
 @interface TXADTracker : NSObject
 
 /*!
-@brief Get TXADTracker Instance.
-@return TXADTracker
-*/
+ @brief Get TXADTracker Instance.
+ @return TXADTracker
+ */
 + (TXADTracker *)getInstance;
 
 /*!
-@brief Register delegate to listen ad loading process of LineItem.
-@warning Register delegate before loading ads.
-@param delegate TXADTrackerDelegate that receives ad loading process event
-*/
+ @brief Register delegate to listen ad loading process of LineItem.
+ @warning Register delegate before loading ads.
+ @param delegate TXADTrackerDelegate that receives ad loading process event
+ */
 - (void)registerDelegate: (id <TXADTrackerDelegate>)delegate;
 
 /*!
-@brief UnRegister delegate when app exit of finish listening ad loading.
-@param delegate TXADTrackerDelegate registered before.
-*/
+ @brief UnRegister delegate when app exit of finish listening ad loading.
+ @param delegate TXADTrackerDelegate registered before.
+ */
 - (void)unRegisterDelegate: (id <TXADTrackerDelegate>)delegate;
 
+- (NSMutableArray *)getDelegateArray;
 
 // Unity Start
 // A reference to the Unity tracker client.
@@ -64,29 +65,5 @@ Track loading ad process of every LineItem.
 @property(nonatomic, assign) TXADTrackAdUnitRewardedCallback adUnitRewardedCallback;
 @property(nonatomic, assign) TXADTrackAdUnitRewardFailedCallback adUnitRewardFailedCallback;
 // Unity End
-
-- (void)trackAdRequest:(TXADILineItem *)lineItem;
-- (void)trackAdLoaded:(TXADILineItem *)lineItem;
-- (void)trackAdCallShow:(TXADILineItem *)lineItem;
-- (void)trackAdShown:(TXADILineItem *)lineItem;
-- (void)trackAdClicked:(TXADILineItem *)lineItem;
-- (void)trackAdClosed:(TXADILineItem *)lineItem;
-- (void)trackAdFailedToLoad:(TXADILineItem *)lineItem adError:(TXADAdError *)adError;
-- (void)trackVideoStarted:(TXADILineItem *)lineItem;
-- (void)trackVideoCompleted:(TXADILineItem *)lineItem;
-- (void)trackRewarded:(TXADILineItem *)lineItem;
-- (void)trackRewardFailed:(TXADILineItem *)lineItem;
-
-- (void)trackAdUnitRequest:(TXADAdUnitInfo *)adUnit;
-- (void)trackAdUnitLoaded:(TXADAdUnitInfo *)adUnit;
-- (void)trackAdUnitCallShow:(TXADAdUnitInfo *)adUnit;
-- (void)trackAdUnitShown:(TXADAdUnitInfo *)adUnit;
-- (void)trackAdUnitClicked:(TXADAdUnitInfo *)adUnit;
-- (void)trackAdUnitClosed:(TXADAdUnitInfo *)adUnit;
-- (void)trackAdUnitFailedToLoad:(TXADAdUnitInfo *)adUnit adError:(TXADAdError *)adError;
-- (void)trackAdUnitVideoStarted:(TXADAdUnitInfo *)adUnit;
-- (void)trackAdUnitVideoCompleted:(TXADAdUnitInfo *)adUnit;
-- (void)trackAdUnitRewarded:(TXADAdUnitInfo *)adUnit;
-- (void)trackAdUnitRewardFailed:(TXADAdUnitInfo *)adUnit;
 
 @end

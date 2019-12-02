@@ -8,11 +8,15 @@
 
 #import <Foundation/Foundation.h>
 #import "TXADAdType.h"
+#import "TXADAdContentInfo.h"
 
 @interface TXADAdUnitInfo : NSObject
 
-- (NSString *)getAdUnitId;
-- (NSString *)getAdUnitName;
-- (TXADAdTypeId)getAdUnitType;
+@property (nonatomic, strong) NSString *adUnitId;
+@property (nonatomic, strong) NSString *adUnitName;
+@property (nonatomic) TXADAdTypeId adUnitType;
+
+@property (nonatomic, strong)TXADAdContentInfo *adContentInfo;
+
 
 @end
