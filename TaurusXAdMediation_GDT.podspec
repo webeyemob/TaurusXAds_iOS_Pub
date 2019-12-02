@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TaurusXAdMediation_GDT"
-  spec.version      = "4.10.19.0"
+  spec.version      = "4.10.19.1"
   spec.summary      = "Tencent GDT Adapters for mediating through TaurusX Ads."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TaurusXAdMediation_GDT_#{spec.version}/LICENSE" }
