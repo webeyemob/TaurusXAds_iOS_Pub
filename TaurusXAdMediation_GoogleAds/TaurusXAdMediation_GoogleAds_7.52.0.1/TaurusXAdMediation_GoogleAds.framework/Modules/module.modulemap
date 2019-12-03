@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_GoogleAds {
+  umbrella header "TaurusXAdMediation_GoogleAds.h"
+
+  export *
+  module * { export * }
+}
