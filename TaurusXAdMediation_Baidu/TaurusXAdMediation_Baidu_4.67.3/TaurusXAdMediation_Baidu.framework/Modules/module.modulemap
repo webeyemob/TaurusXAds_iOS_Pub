@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_Baidu {
+  umbrella header "TaurusXAdMediation_Baidu.h"
+
+  export *
+  module * { export * }
+}
