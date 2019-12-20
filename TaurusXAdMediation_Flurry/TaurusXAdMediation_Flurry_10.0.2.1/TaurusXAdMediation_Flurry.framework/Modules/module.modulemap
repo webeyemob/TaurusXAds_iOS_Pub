@@ -1,0 +1,6 @@
+framework module TaurusXAdMediation_Flurry {
+  umbrella header "TaurusXAdMediation_Flurry.h"
+
+  export *
+  module * { export * }
+}
