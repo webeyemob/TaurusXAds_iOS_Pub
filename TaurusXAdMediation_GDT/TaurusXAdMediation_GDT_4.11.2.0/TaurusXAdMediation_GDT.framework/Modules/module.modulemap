@@ -1,6 +1,0 @@
-framework module TaurusXAdMediation_GDT {
-  umbrella header "TaurusXAdMediation_GDT.h"
-
-  export *
-  module * { export * }
-}
