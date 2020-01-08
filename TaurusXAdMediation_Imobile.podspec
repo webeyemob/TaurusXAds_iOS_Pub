@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/TaurusXAdMediation_Imobile/TaurusXAdMediation_Imobile_#{spec.version}.zip" }
   spec.vendored_frameworks  = "TaurusXAdMediation_Imobile_#{spec.version}/TaurusXAdMediation_Imobile.framework", "TaurusXAdMediation_Imobile_#{spec.version}/ImobileSdkAds.framework"
   spec.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
-  spec.frameworks       = 'AdSupport', 'CoreLocation', 'WebKit'
+  spec.frameworks       = 'AdSupport', 'CoreLocation', 'WebKit', 'SystemConfiguration'
   spec.dependency "TaurusXAds"
 end
