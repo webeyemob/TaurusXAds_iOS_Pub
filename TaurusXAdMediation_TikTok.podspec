@@ -11,4 +11,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'Bytedance-UnionAD', '~> 2.7.5.2'
   spec.dependency "TaurusXAds"
   valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']
+  spec.xcconfig = {
+    'VALID_ARCHS' =>  valid_archs.join(' '),
+  }
 end
