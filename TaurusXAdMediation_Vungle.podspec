@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TaurusXAdMediation_Vungle"
-  spec.version      = "6.4.5.1"
+  spec.version      = "6.4.5.2"
   spec.summary      = "Vungle Adapters for mediating through TaurusX Ads."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TaurusXAdMediation_Vungle_#{spec.version}/LICENSE" }
