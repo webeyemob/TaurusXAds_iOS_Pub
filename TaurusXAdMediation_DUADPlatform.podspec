@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TaurusXAdMediation_DUAdPlatform"
-  spec.version      = "1.1.4.1"
+  spec.version      = "1.1.4.2"
   spec.summary      = "DU Ad Platform Adapters for mediating through TaurusX Ads."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TaurusXAdMediation_DUAdPlatform_#{spec.version}/LICENSE" }
