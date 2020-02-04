@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TaurusXAdMediation_Maio"
-  spec.version      = "1.4.8.0"
+  spec.version      = "1.4.8.1"
   spec.summary      = "Maio Adapters for mediating through TaurusX Ads."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TaurusXAdMediation_Maio_#{spec.version}/LICENSE" }
