@@ -1,6 +1,0 @@
-framework module TaurusXAdMediation_AppLovin {
-  umbrella header "TaurusXAdMediation_AppLovin.h"
-
-  export *
-  module * { export * }
-}

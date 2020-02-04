@@ -1,6 +1,0 @@
-framework module TaurusXAdMediation_Imobile {
-  umbrella header "TaurusXAdMediation_Imobile.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module TaurusXAdMediation_AdGeneration {
-  umbrella header "TaurusXAdMediation_AdGeneration.h"
-
-  export *
-  module * { export * }
-}

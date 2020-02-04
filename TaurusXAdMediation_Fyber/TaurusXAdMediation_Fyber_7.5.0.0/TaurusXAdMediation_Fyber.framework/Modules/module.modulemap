@@ -1,6 +1,0 @@
-framework module TaurusXAdMediation_Fyber {
-  umbrella header "TaurusXAdMediation_Fyber.h"
-
-  export *
-  module * { export * }
-}

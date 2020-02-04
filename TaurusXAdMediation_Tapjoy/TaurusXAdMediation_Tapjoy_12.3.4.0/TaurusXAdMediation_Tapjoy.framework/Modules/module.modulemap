@@ -1,6 +1,0 @@
-framework module TaurusXAdMediation_Tapjoy {
-  umbrella header "TaurusXAdMediation_Tapjoy.h"
-
-  export *
-  module * { export * }
-}

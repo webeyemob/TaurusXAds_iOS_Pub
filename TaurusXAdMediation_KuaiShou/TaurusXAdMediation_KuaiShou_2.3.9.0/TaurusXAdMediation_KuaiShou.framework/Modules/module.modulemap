@@ -1,6 +1,0 @@
-framework module TaurusXAdMediation_KuaiShou {
-  umbrella header "TaurusXAdMediation_KuaiShou.h"
-
-  export *
-  module * { export * }
-}
