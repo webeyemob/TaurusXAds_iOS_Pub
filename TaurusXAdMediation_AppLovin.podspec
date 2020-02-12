@@ -6,6 +6,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => "TaurusXAdMediation_AppLovin_#{spec.version}/LICENSE" }
   spec.author       = "TaurusXAds"
   spec.platform     = :ios, "9.0"
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 armv7s x86_64' }
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/TaurusXAdMediation_AppLovin/TaurusXAdMediation_AppLovin_#{spec.version}.zip" }
   spec.vendored_frameworks  = "TaurusXAdMediation_AppLovin_#{spec.version}/TaurusXAdMediation_AppLovin.framework"
   spec.dependency 'AppLovinSDK', '6.11.3'
