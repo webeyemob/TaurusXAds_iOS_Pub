@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TaurusXAds_GDT_Meds_#{spec.version}/LICENSE" }
   spec.author       = "TaurusXAds"
-  spec.platform     = :ios, "8.0"
+  spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/TaurusXAds_GDT_Meds/TaurusXAds_GDT_Meds_#{spec.version}.zip" }
   spec.vendored_frameworks  = "TaurusXAds_GDT_Meds_#{spec.version}/TaurusXAds_GDT_Meds.framework"
   spec.dependency "Google-Mobile-Ads-SDK", "7.52.0"
