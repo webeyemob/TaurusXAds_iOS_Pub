@@ -1,0 +1,6 @@
+framework module TaurusXAds_GDT_Meds {
+  umbrella header "TaurusXAds_GDT_Meds.h"
+
+  export *
+  module * { export * }
+}
