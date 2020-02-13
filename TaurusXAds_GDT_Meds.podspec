@@ -8,6 +8,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "8.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/TaurusXAds_GDT_Meds/TaurusXAds_GDT_Meds_#{spec.version}.zip" }
   spec.vendored_frameworks  = "TaurusXAds_GDT_Meds_#{spec.version}/TaurusXAds_GDT_Meds.framework"
-  spec.dependency 'AdColony', '~> 4.1.2'
+  spec.dependency "Google-Mobile-Ads-SDK", "7.52.0"
+  spec.dependency 'GDTMobSDK', '4.11.2'
   spec.dependency "TaurusXAds"
 end
