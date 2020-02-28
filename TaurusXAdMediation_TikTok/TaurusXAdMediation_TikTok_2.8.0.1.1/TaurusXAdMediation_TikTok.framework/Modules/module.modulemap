@@ -1,6 +1,0 @@
-framework module TaurusXAdMediation_TikTok {
-  umbrella header "TaurusXAdMediation_TikTok.h"
-
-  export *
-  module * { export * }
-}
