@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/NathAds/NathAds_#{spec.version}.zip" }
   spec.vendored_frameworks  = "NathAds_#{spec.version}/NathXAds.framework"
   spec.resource = "NathAds_#{spec.version}/NathAds.bundle"
-  spec.frameworks       = 'CoreMedia', 'SystemConfiguration', 'CoreLocation', 'CoreTelephony'，'AdSupport', 'WebKit', 'MediaPlayer', 'MobileCoreServices', 'CoreMotion'
+  spec.frameworks       = 'CoreMedia', 'SystemConfiguration', 'CoreLocation', 'CoreTelephony', 'AdSupport', 'WebKit', 'MediaPlayer', 'MobileCoreServices', 'CoreMotion'
   spec.libraries        = 'z'
 end
