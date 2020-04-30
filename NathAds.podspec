@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NathAds"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "NathAds is Mobile Ad SDK."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "NathAds_#{spec.version}/LICENSE" }
