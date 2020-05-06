@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "8.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/TaurusXAds/TaurusXAds_#{spec.version}.zip" }
   spec.vendored_frameworks  = "TaurusXAds_#{spec.version}/TaurusXAds.framework", "TaurusXAds_#{spec.version}/TaurusXAdMediation_NathAds.framework"
-  spec.resource = "TaurusXAds_#{spec.version}/TaurusXAds.bundle"
+  spec.resource     = "TaurusXAds_#{spec.version}/TaurusXAds.bundle"
   spec.dependency 'NathAds'
 end
