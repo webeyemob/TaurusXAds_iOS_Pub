@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TaurusXAdMediation_MoPub_#{spec.version}/LICENSE" }
   spec.author       = "TaurusXAds"
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "10.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/TaurusXAdMediation_MoPub/TaurusXAdMediation_MoPub_#{spec.version}.zip" }
   spec.vendored_frameworks  = "TaurusXAdMediation_MoPub_#{spec.version}/TaurusXAdMediation_MoPub.framework"
   spec.dependency 'mopub-ios-sdk', '5.13.0'
