@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "RichOX"
-  spec.version      = "0.0.2"
+  spec.version      = "1.0.0"
   spec.summary      = "RichOX is Mobile InterActive Scence SDK."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "RichOX_#{spec.version}/LICENSE" }
