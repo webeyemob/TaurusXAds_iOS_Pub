@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NathAds"
-  spec.version      = "1.1.7"
+  spec.version      = "1.1.8"
   spec.summary      = "NathAds is Mobile Ad SDK."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "NathAds_#{spec.version}/LICENSE" }
@@ -11,4 +11,5 @@ Pod::Spec.new do |spec|
   spec.resource = "NathAds_#{spec.version}/NathAds.bundle"
   spec.frameworks       = 'CoreMedia', 'SystemConfiguration', 'CoreLocation', 'CoreTelephony', 'AdSupport', 'WebKit', 'MediaPlayer', 'MobileCoreServices', 'CoreMotion'
   spec.libraries        = 'z'
+  spec.dependency 'DataFlyer'
 end
