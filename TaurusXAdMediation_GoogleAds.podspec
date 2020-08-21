@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TaurusXAdMediation_GoogleAds"
-  spec.version      = "7.63.0.0"
+  spec.version      = "7.64.0.0"
   spec.summary      = "GoogleAds Adapters for mediating through TaurusX Ads."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TaurusXAdMediation_GoogleAds_#{spec.version}/LICENSE" }
@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "8.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/TaurusXAdMediation_GoogleAds/TaurusXAdMediation_GoogleAds_#{spec.version}.zip" }
   spec.vendored_frameworks  = "TaurusXAdMediation_GoogleAds_#{spec.version}/TaurusXAdMediation_GoogleAds.framework"
-  spec.dependency "Google-Mobile-Ads-SDK", "7.63.0"
+  spec.dependency "Google-Mobile-Ads-SDK", "7.64.0"
   spec.dependency "TaurusXAds"
 end
