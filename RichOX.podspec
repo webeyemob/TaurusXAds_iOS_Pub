@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/RichOX/RichOX_#{spec.version}.zip" }
   spec.vendored_frameworks  = "RichOX_#{spec.version}/RichOX.framework"
-  spec.frameworks       = 'SystemConfiguration', 'CoreLocation', 'CoreTelephony', 'WebKit', 'MobileCoreServices', 'CoreMotion'
+  spec.frameworks       = 'QuartzCore', 'ImageIO', 'CoreGraphics', 'SystemConfiguration', 'CoreLocation', 'CoreTelephony', 'WebKit', 'MobileCoreServices', 'CoreMotion'
   spec.libraries        = 'z'
   spec.dependency 'lottie-ios', '= 2.5.3'
   spec.dependency 'DataFlyer'
