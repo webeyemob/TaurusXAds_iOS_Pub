@@ -9,5 +9,4 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/TaurusXAdMediation_Mobrain_GDT/TaurusXAdMediation_Mobrain_GDT_#{spec.version}.zip" }
   spec.vendored_frameworks  = "TaurusXAdMediation_Mobrain_GDT_#{spec.version}/ABUAdGdtAdapter.framework"
-  spec.dependency "TaurusXAds"
 end

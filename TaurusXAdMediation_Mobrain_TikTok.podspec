@@ -10,5 +10,4 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/TaurusXAdMediation_Mobrain_TikTok/TaurusXAdMediation_Mobrain_TikTok_#{spec.version}.zip" }
   spec.vendored_frameworks  = "TaurusXAdMediation_Mobrain_TikTok_#{spec.version}/ABUAdSDKAdapter.framework"
   spec.dependency 'Bytedance-UnionAD', '3.3.6.1'
-  spec.dependency "TaurusXAds"
 end
