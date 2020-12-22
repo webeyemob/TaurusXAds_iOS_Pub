@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/Networks/TaurusX_Bytedance-UnionAD/TaurusX_Bytedance-UnionAD_#{spec.version}.zip" }
   spec.vendored_frameworks  = "TaurusX_Bytedance-UnionAD_#{spec.version}/BUAdSDK.framework", "TaurusX_Bytedance-UnionAD_#{spec.version}/BUCNAuxiliary.framework", "TaurusX_Bytedance-UnionAD_#{spec.version}/BUFoundation.framework"
-  spec.resource = ""TaurusX_Bytedance-UnionAD_#{spec.version}/BUAdSDK.bundle"
+  spec.resource = "TaurusX_Bytedance-UnionAD_#{spec.version}/BUAdSDK.bundle"
   spec.dependency "TaurusXAds"
 end
