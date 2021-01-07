@@ -8,5 +8,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/EmbededSdk/EmbededSdk_#{spec.version}.zip" }
   spec.vendored_frameworks  = "EmbededSdk_#{spec.version}/EmbededSdk.framework"
-  spec.frameworks       = 'TaurusXAds', 'EventsIOSdk'
+  spec.dependency   'TaurusXAds'
+  spec.dependency   'EventsIOSdk'
 end
