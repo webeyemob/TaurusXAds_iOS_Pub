@@ -10,7 +10,5 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks  = "FissionSdk_#{spec.version}/FissionSdk.framework"
   spec.dependency 'FissionAccount'
   spec.dependency 'mob_linksdk_pro'
-  spec.dependency 'mob_sharesdk'
-  spec.dependency 'mob_sharesdk/ShareSDKUI'
 
 end
