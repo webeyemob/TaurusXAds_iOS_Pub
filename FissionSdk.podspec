@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "FissionSdk"
-  spec.version      = "1.1.3"
+  spec.version      = "1.1.4"
   spec.summary      = "FissionSdk is Mobile Mission Activity SDK."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "FissionSdk_#{spec.version}/LICENSE" }
