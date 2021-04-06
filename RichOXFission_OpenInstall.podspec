@@ -9,4 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/RichOXFission_OpenInstall/RichOXFission_OpenInstall_#{spec.version}.zip" }
   spec.vendored_frameworks  = "RichOXFission_OpenInstall_#{spec.version}/RichOXFission_OpenInstall.framework"
   spec.dependency "libOpenInstallSDK"
+  spec.dependency "EventsIOSdk"
 end
