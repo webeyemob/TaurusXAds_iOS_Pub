@@ -9,4 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/RichOXFission_Moblink/RichOXFission_Moblink_#{spec.version}.zip" }
   spec.vendored_frameworks  = "RichOXFission_Moblink_#{spec.version}/RichOXFission_Moblink.framework"
   spec.dependency "mob_linksdk_pro"
+  spec.dependency "EventsIOSdk"
 end
