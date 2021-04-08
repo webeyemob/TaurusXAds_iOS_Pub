@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "EmbededSdk"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "EmbededSdk is SDK for track event."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "EmbededSdk_#{spec.version}/LICENSE" }
@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/EmbededSdk/EmbededSdk_#{spec.version}.zip" }
   spec.vendored_frameworks  = "EmbededSdk_#{spec.version}/EmbededSdk.framework"
   spec.dependency   'TaurusXAds'
-  spec.dependency   'EventsIOSdk', '~> 1.0.3'
+  spec.dependency   'EventsIOSdk'
 end
