@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "RichOXFission_Moblink"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "RichOXFission_Moblink is SDK depend moblink to get user share information."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "RichOXFission_Moblink_#{spec.version}/LICENSE" }
