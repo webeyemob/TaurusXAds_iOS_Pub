@@ -10,4 +10,5 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks  = "TaurusXAdMediation_AppLovinMax_#{spec.version}/TaurusXAdMediation_AppLovinMax.framework"
   spec.dependency 'AppLovinSDK', '10.2.0'
   spec.dependency "TaurusXAds"
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 armv7s x86_64' }
 end
