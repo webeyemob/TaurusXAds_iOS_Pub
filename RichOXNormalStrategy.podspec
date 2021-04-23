@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "RichOXNormalStrategy"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "RichOXNormalStrategy is SDK to provide Normal strategy API. It dependence RichOXBase"
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "RichOXNormalStrategy_#{spec.version}/LICENSE" }
