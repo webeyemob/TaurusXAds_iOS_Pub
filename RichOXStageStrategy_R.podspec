@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "RichOXStageStrategy_R"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "RichOXStageStrategy is SDK to provide stage strategy API. It dependence RichOXBase"
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "RichOXStageStrategy_R_#{spec.version}/LICENSE" }
