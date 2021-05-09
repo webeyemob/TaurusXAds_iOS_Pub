@@ -1,0 +1,26 @@
+Pod::Spec.new do |s|
+    s.name = 'TaurusXAd_KleinAdSDK'
+    s.version = '1.3.2.68'
+    s.summary = 'klein ad sdk'
+    s.homepage = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
+    s.license = { :type => 'MIT', :file => "TaurusXAd_KleinAdSDK_#{spec.version}/LICENSE" }
+    s.author = "TaurusXAds"
+    spec.source = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/Networks/TaurusXAd_KleinAdSDK/TaurusXAd_KleinAdSDK_#{spec.version}.zip" }
+
+    #s.static_framework = true
+    s.platform = :ios, '9.0'
+    #s.requires_arc = true
+
+    s.vendored_frameworks = "TaurusXAd_KleinAdSDK_#{spec.version}/KleinAdSDK.framework"
+    s.resource = "TaurusXAd_KleinAdSDK_#{spec.version}/KLSDKImages.bundle"
+    #s.libraries = 'iconv', 'sqlite3', 'c++', 'z'
+    s.frameworks = 'UIKit', 'StoreKit', 'SystemConfiguration', 'AdSupport', 'CoreTelephony', 'AVKit', 'WebKit', 'AVFoundation', 'CoreMedia', 'AudioToolbox'
+    s.weak_framework = 'AppTrackingTransparency'
+
+    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    s.pod_target_xcconfig = {
+       'VALID_ARCHS' => '$(ARCHS_STANDARD_64_BIT) arm64e armv7',
+       'ENABLE_BITCODE' => 'YES',
+    }
+
+end
