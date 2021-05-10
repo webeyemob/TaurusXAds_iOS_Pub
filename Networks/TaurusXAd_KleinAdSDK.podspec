@@ -15,5 +15,4 @@ Pod::Spec.new do |s|
     s.resource = "TaurusXAd_KleinAdSDK_#{s.version}/KLSDKImages.bundle"
     #s.libraries = 'iconv', 'sqlite3', 'c++', 'z'
     s.frameworks = 'UIKit', 'StoreKit', 'SystemConfiguration', 'AdSupport', 'CoreTelephony', 'AVKit', 'WebKit', 'AVFoundation', 'CoreMedia', 'AudioToolbox'
-    s.weak_framework = 'AppTrackingTransparency'
 end
