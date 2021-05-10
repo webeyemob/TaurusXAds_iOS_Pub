@@ -16,11 +16,4 @@ Pod::Spec.new do |s|
     #s.libraries = 'iconv', 'sqlite3', 'c++', 'z'
     s.frameworks = 'UIKit', 'StoreKit', 'SystemConfiguration', 'AdSupport', 'CoreTelephony', 'AVKit', 'WebKit', 'AVFoundation', 'CoreMedia', 'AudioToolbox'
     s.weak_framework = 'AppTrackingTransparency'
-
-    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-    s.pod_target_xcconfig = {
-       'VALID_ARCHS' => '$(ARCHS_STANDARD_64_BIT) arm64e armv7',
-       'ENABLE_BITCODE' => 'YES',
-    }
-
 end
