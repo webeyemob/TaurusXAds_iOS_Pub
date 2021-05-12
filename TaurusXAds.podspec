@@ -10,5 +10,6 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks  = "TaurusXAds_#{spec.version}/TaurusXAds.framework", "TaurusXAds_#{spec.version}/TaurusXAdMediation_NathAds.framework"
   spec.resource     = "TaurusXAds_#{spec.version}/TaurusXAds.bundle"
   spec.dependency 'NathAds', '~> 1.1.9'
-  spec.dependency 'DataFlyer', '1.0.8'
+  spec.dependency 'DataFlyer', '1.0.9'
+  spec.dependency 'EventsIOSdk'
 end
