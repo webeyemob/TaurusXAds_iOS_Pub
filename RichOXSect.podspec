@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "RichOXSect"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "RichOXSect is SDK to provide sect system API. It dependence RichOXBase"
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "RichOXSect_#{spec.version}/LICENSE" }
