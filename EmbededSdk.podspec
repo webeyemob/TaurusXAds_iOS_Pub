@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "EmbededSdk"
-  spec.version      = "1.0.6"
+  spec.version      = "1.0.7"
   spec.summary      = "EmbededSdk is SDK for track event."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "EmbededSdk_#{spec.version}/LICENSE" }
