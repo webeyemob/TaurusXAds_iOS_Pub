@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "FissionAccount"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "FissionAccount is base account SDK for FissionSdk."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "FissionAccount_#{spec.version}/LICENSE" }
