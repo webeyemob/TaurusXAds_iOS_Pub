@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'TaurusXAd_KleinAdSDK'
-    s.version = '1.3.2.68'
+    s.version = '1.5.0.54'
     s.summary = 'klein ad sdk'
     s.homepage = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
     s.license = { :type => 'MIT', :file => "TaurusXAd_KleinAdSDK_#{s.version}/LICENSE" }
@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
     #s.requires_arc = true
 
     s.vendored_frameworks = "TaurusXAd_KleinAdSDK_#{s.version}/KleinAdSDK.framework"
-    s.resource = "TaurusXAd_KleinAdSDK_#{s.version}/KLSDKImages.bundle"
-    #s.libraries = 'iconv', 'sqlite3', 'c++', 'z'
-    s.frameworks = 'UIKit', 'StoreKit', 'SystemConfiguration', 'AdSupport', 'CoreTelephony', 'AVKit', 'WebKit', 'AVFoundation', 'CoreMedia', 'AudioToolbox'
+    s.weak_frameworks = 'AdSupport', 'AppTrackingTransparency', 'WebKit'
+    s.frameworks = 'StoreKit', 'SystemConfiguration', 'CoreTelephony', 'AVKit', 'AVFoundation', 'CoreMedia'
 end
