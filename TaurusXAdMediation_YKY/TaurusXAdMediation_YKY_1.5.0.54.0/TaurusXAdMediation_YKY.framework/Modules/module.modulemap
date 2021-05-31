@@ -1,6 +1,0 @@
-framework module TaurusXAdMediation_YKY {
-  umbrella header "TaurusXAdMediation_YKY.h"
-
-  export *
-  module * { export * }
-}
