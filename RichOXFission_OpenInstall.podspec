@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "RichOXFission_OpenInstall"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "RichOXFission_OpenInstall is SDK to get share information by openinstall SDK."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "RichOXFission_OpenInstall_#{spec.version}/LICENSE" }
