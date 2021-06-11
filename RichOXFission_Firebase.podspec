@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "RichOXFission_Firebase"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "RichOXFission_Firebase is SDK depend Firebase to get user share information."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "RichOXFission_Firebase_#{spec.version}/LICENSE" }
