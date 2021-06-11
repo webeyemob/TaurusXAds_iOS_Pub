@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "RichOXFissionAdapter_Firebase"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "RichOXFission_Firebase is SDK auto adapter for richox fission function what dependence Firebase sdk."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "RichOXFissionAdapter_Firebase_#{spec.version}/LICENSE" }
