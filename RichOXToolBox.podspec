@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "RichOXToolBox"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "RichOXToolBox is SDK to ToolBox function API. It dependence RichOXBase"
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "RichOXToolBox_#{spec.version}/LICENSE" }
