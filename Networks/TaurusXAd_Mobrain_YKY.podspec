@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TaurusXAd_Mobrain_YKY"
-  spec.version      = "2.2.0.270.0"
+  spec.version      = "2.2.0.270.1"
   spec.summary      = "Mobrain-YKY Adapters for mediating through TaurusX Ads."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TaurusXAd_Mobrain_YKY_#{spec.version}/LICENSE" }
