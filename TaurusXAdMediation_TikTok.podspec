@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TaurusXAdMediation_TikTok"
-  spec.version      = "3.8.1.0.0"
+  spec.version      = "4.0.0.1.0"
   spec.summary      = "TikTok Adapters for mediating through TaurusX Ads."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "TaurusXAdMediation_TikTok_#{spec.version}/LICENSE" }
@@ -8,8 +8,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/TaurusXAdMediation_TikTok/TaurusXAdMediation_TikTok_#{spec.version}.zip" }
   spec.vendored_frameworks  = "TaurusXAdMediation_TikTok_#{spec.version}/TaurusXAdMediation_TikTok.framework"
-  spec.dependency 'Ads-Global', '3.8.1.0'
-  spec.dependency 'Ads-Global/BUAdSDK', '3.8.1.0'
-  spec.dependency 'Ads-Global/Domestic', '3.8.1.0'
+  spec.dependency 'Ads-Global', '4.0.0.1'
+  spec.dependency 'Ads-Global/BUAdSDK', '4.0.0.1'
+  spec.dependency 'Ads-Global/Domestic', '4.0.0.1'
   spec.dependency "TaurusXAds"
 end
