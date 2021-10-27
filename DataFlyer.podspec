@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "DataFlyer"
-  spec.version      = "1.1.2"
+  spec.version      = "1.1.3"
   spec.summary      = "DataFlyer is Event Track SDK."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "DataFlyer_#{spec.version}/LICENSE" }
