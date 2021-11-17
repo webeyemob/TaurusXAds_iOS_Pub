@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "EventsIOSdk"
-  spec.version      = "1.0.7"
+  spec.version      = "1.0.8"
   spec.summary      = "EventsIOSdk is SDK for track event."
   spec.homepage     = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
   spec.license      = { :type => 'MIT', :file => "EventsIOSdk_#{spec.version}/LICENSE" }
