@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'GDTMobSdk_DD'
-    s.version = '4.13.40'
+    s.version = '4.13.42'
     s.summary = 'GDT data track version'
     s.homepage = "https://github.com/webeyemob/TaurusXAds_iOS_Pub"
     s.license = { :type => 'MIT', :file => "GDTMobSdk_DD_#{s.version}/LICENSE" }
