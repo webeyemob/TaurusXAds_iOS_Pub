@@ -10,6 +10,8 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks  = "TaurusXAdMediation_TikTok_#{spec.version}/TaurusXAdMediation_TikTok.xcframework"
   spec.dependency 'Ads-CN', '4.9.0.6'
   spec.dependency 'Ads-CN/BUAdSDK', '4.9.0.6'
-  spec.dependency 'Ads-CN/Domestic', '4.9.0.6'
+  spec.dependency 'Ads-CN/BUAdSDK_Compatible', '4.9.0.6'
+  spec.dependency 'Ads-CN/Dep_Accurate', '4.9.0.6'
+  spec.dependency 'Ads-CN/Dep_Compatible', '4.9.0.6'
   spec.dependency "TaurusXAds"
 end
