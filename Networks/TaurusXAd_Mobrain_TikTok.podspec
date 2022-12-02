@@ -7,5 +7,5 @@ Pod::Spec.new do |spec|
   spec.author       = "TaurusXAds"
   spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/Networks/TaurusXAd_Mobrain_TikTok/TaurusXAd_Mobrain_TikTok_#{spec.version}.zip" }
-  spec.vendored_frameworks  = "TaurusXAd_Mobrain_TikTok_#{spec.version}/AABUAdCsjAdapter.framework"
+  spec.vendored_frameworks  = "TaurusXAd_Mobrain_TikTok_#{spec.version}/ABUAdCsjAdapter.framework"
 end
