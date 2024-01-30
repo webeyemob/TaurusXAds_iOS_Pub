@@ -7,6 +7,6 @@ Pod::Spec.new do |spec|
   spec.author       = "RichOX"
   spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://github.com/webeyemob/TaurusXAds_iOS_Pub/raw/master/RichOXNormalStrategy/RichOXNormalStrategy_#{spec.version}.zip" }
-  spec.vendored_frameworks  = "RichOXNormalStrategy_#{spec.version}/RichOXNormalStrategy.framework"
+  spec.vendored_frameworks  = "RichOXNormalStrategy_#{spec.version}/RichOXNormalStrategy.xcframework"
   spec.dependency 'RichOXBase'
 end
